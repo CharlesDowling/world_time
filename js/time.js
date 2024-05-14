@@ -31,7 +31,9 @@ function update_time(){
     document.getElementById("EET").innerText = utc_hour_conv(2, minutes, hours) + ":" + seconds;
 
     document.getElementById("ADT").innerText = utc_hour_conv(-3, minutes, hours) + ":" + seconds;
+    document.getElementById("NFST").innerText = utc_hour_conv( -3.5, minutes, hours) + ":" + seconds;
     document.getElementById("MT").innerText = utc_hour_conv(3, minutes, hours) + ":" + seconds;
+    document.getElementById("IST").innerText = utc_hour_conv(3, minutes, hours) + ":" + seconds;
 
     document.getElementById("AST").innerText = utc_hour_conv(-4, minutes, hours) + ":" + seconds;
     document.getElementById("GT").innerText = utc_hour_conv(4, minutes,hours) + ":" + seconds;
@@ -51,6 +53,7 @@ function update_time(){
     document.getElementById("CHST").innerText = utc_hour_conv(8, minutes, hours) + ":" + seconds;
 
     document.getElementById("AKST").innerText = utc_hour_conv( -9, minutes, hours) + ":" + seconds;
+    document.getElementById("MQT").innerText = utc_hour_conv( -9.5, minutes, hours) + ":" + seconds;
     document.getElementById("JST").innerText = utc_hour_conv( 9, minutes, hours) + ":" + seconds;
 
     document.getElementById("HST").innerText = utc_hour_conv( -10, minutes, hours) + ":" +seconds;
