@@ -40,6 +40,7 @@ function update_time(){
 
     document.getElementById("EST").innerText = utc_hour_conv(-5, minutes, hours) + ":" + seconds;
     document.getElementById("KT").innerText = utc_hour_conv(5, minutes, hours) + ":" + seconds;
+    document.getElementById("INST").innerText = utc_hour_conv(5.5, minutes, hours) + ":" + seconds;
 
     document.getElementById("IST").innerText = utc_hour_conv(5.5, minutes, hours) + ":" + seconds;
 
